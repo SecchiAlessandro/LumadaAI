@@ -1,19 +1,19 @@
 # Lumada AI
 
-## Overview
+## Description
 
-**Lumada AI** is a sophisticated multi-agent framework designed to scan and retrieve information from Hitachi Group's products and solutions websites. The framework features a supervisory agent, LumadaAI, that intelligently directs queries to the appropriate agent based on the user’s questions, ensuring accurate and relevant responses.
+**Lumada AI** is a multi-agent framework that scans Hitachi Group's products and solutions websites. It utilizes a supervisory agent called **LumadaAI**, which intelligently directs user queries to specialized agents based on the context of the question.
 
-## Features
+## Key Features
 
-- **Multi-Agent Framework:** Leverages multiple specialized agents for different categories of queries, enhancing the efficiency of information retrieval.
-- **Intelligent Supervision:** The LumadaAI supervisor intelligently determines the best agent to handle a given query, improving response accuracy and user experience.
-- **Web Scanning:** Capable of scanning Hitachi Group websites to gather information on various products and solutions.
-- **Dynamic Query Handling:** Adapts to different types of questions, providing precise answers based on the user's needs.
+- **Multi-Agent System:** Multiple agents handle specific areas of knowledge, ensuring efficient and accurate responses.
+- **Supervisory Control:** The LumadaAI supervisor analyzes queries and selects the most suitable agent for each question.
+- **Web Scraping Capabilities:** Automates the process of extracting information from Hitachi Group websites.
+- **Contextual Understanding:** Adapts to various types of questions to provide relevant and precise answers.
 
-## Installation
+## Installation Guide
 
-To set up Lumada AI, follow these steps:
+To install and run Lumada AI, please follow these instructions:
 
 1. **Clone the Repository:**
    ```bash
