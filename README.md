@@ -1,8 +1,9 @@
+
 # Lumada AI
 
 ## Overview
 
-**Lumada AI** is an intelligent multi-agent framework designed to scan Hitachi Group's products and solutions websites. It utilizes a supervisor agent named **LumadaAI**, which dynamically selects the appropriate agent based on the user's query. This framework allows for efficient and effective retrieval of information from a wide range of resources within the Hitachi Group.
+**Lumada AI** is an intelligent multi-agent framework designed to scan the Hitachi Group's products and solutions websites. It utilizes a supervisor agent named **LumadaAI**, which dynamically selects the appropriate agent based on the user's query. This framework allows for efficient and effective retrieval of information from a wide range of resources within the Hitachi Group.
 
 ## Features
 
@@ -10,18 +11,30 @@
 - **Dynamic Query Handling**: The supervisor agent (LumadaAI) analyzes user queries and routes them to the appropriate agent.
 - **Pre-Scraped Data**: The relevant information from the Hitachi Energy websites has already been scraped and is stored in a JSON file for quick access.
 
-## Getting Started
+## Requirements
 
+🐍 Python 3.10 or later  
+📦 Required Python packages, listed in `requirements.txt`
+
+## Getting Started
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the Repository**
    ```bash
    git clone [repository_url]
-   cd lumadaai
+   cd lumadaAI
    ```
 
-2. Install the required dependencies:
+2. **Create a Virtual Environment** (optional but recommended)  
+   It's advisable to use a virtual environment to manage your dependencies:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install Dependencies**  
+   Install the required Python packages using the `requirements.txt` file:
    ```bash
    pip install -r requirements.txt
    ```
@@ -29,9 +42,9 @@
 ### Running the Chatbot
 
 To run the **Lumada AI** chatbot, execute the following command:
-
+```bash
 streamlit run chatbot.py
-
+```
 Ensure that the pre-scraped data from the Hitachi Energy websites is available in the JSON file before running the chatbot.
 
 ## Usage
